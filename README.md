@@ -5,6 +5,7 @@ https://www.zcyphygeodesy.com/en/h-nd-126.html
     The program is suitable for the unified computation of the complete Bouguer effect on gravity, gravity anomaly and gravity disturbance in land, land-sea junction and sea area.
     The land terrain complete Bouguer effect is defined as the effect of the terrain mass above the geoid on the Earth's gravity field. While the seawater complete Bouguer effect is defined as the effect on the Earth's gravity field because of the density of seawater compensated to the density of land terrain.
 The land-sea unified complete Bouguer effects can also be calculated by spherical harmonic analysis and synthesis of global land-sea terrain masses.
+![](https://24192633.s21i.faiusr.com/2/ABUIABACGAAg7ezltwYo4v7FggQwpQ047gg.jpg)
 ## [Main program for test entrance]
     landseacmpBougeffintgrl.f90
     The record format of the input calculation point file: ID (point no / point name), longitude (decimal degrees), latitude (decimal degrees), ellipsoidal height (m)......
@@ -43,5 +44,4 @@ The land-sea unified complete Bouguer effects can also be calculated by spherica
     7.5.2 Integral formula of local terrain effect outside the Earth
     7.6.1 Marine terrain gravitational field - seawater complete Bouguer effect
     7.1(4) Low-dgree Legendre function and its first and second derivative algorithms
-
-DOS executable test file and all input and output data.
+The zip compression packag includes the test project in visual studio 2017 - intel fortran integrated environment, DOS executable test file and all input and output data.
