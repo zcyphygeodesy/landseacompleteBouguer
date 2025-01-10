@@ -1,10 +1,10 @@
 ## Fortran codes for Computation of the land-sea unified complete Bouguer effect on gravity outside geoid
 https://www.zcyphygeodesy.com/en/h-nd-126.html
 ## [Algorithm purpose]
-    Using the numerical integral method, from the land-sea terrain model and ellipsoidal height grid file of the land-sea surface, compute the land-sea unified complete Bouguer effect on the gravity (mGal) on the geoid or in near-Earth space.
-    The program is suitable for the unified computation of the complete Bouguer effect on gravity, gravity anomaly and gravity disturbance in land, land-sea junction and sea area.
-    The land terrain complete Bouguer effect is defined as the effect of the terrain mass above the geoid on the Earth's gravity field. While the seawater complete Bouguer effect is defined as the effect on the Earth's gravity field because of the density of seawater compensated to the density of land terrain.
-The land-sea unified complete Bouguer effects can also be calculated by spherical harmonic analysis and synthesis of global land-sea terrain masses.
+&emsp;```Using the numerical integral method, from the land-sea terrain model and ellipsoidal height grid file of the land-sea surface, compute the land-sea unified complete Bouguer effect on the gravity (mGal) on the geoid or in near-Earth space.```  
+&emsp;```The program is suitable for the unified computation of the complete Bouguer effect on gravity, gravity anomaly and gravity disturbance in land, land-sea junction and sea area.```  
+&emsp;```The land terrain complete Bouguer effect is defined as the effect of the terrain mass above the geoid on the Earth's gravity field. While the seawater complete Bouguer effect is defined as the effect on the Earth's gravity field because of the density of seawater compensated to the density of land terrain.```  
+&emsp;```The land-sea unified complete Bouguer effects can also be calculated by spherical harmonic analysis and synthesis of global land-sea terrain masses.```
 ![](https://24192633.s21i.faiusr.com/2/ABUIABACGAAg7ezltwYo4v7FggQwpQ047gg.jpg)
 ## [Main program for test entrance]
     landseacmpBougeffintgrl.f90
